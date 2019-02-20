@@ -1,2 +1,3 @@
-# bootstrap-social-share
-Share and Lgin buttons with Bootstrap and Font-Awesome.
+Bootstrap Social Buttons
+
+Bootstrap social media buttons for login and share.

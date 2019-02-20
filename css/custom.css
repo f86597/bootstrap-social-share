@@ -1,0 +1,109 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+    background: linear-gradient(135deg, orange 20%, rgb(153, 0, 255) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 0;
+
+}
+
+.jumbotron .top {
+    padding: 4rem 2rem;
+}
+
+.jumbotron h1 {
+    font-size: 3.4em;
+    padding: 1rem;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.jumbotron a {
+    color: white
+}
+
+.footer {
+    background: rgba(107, 69, 69, 0.521);
+    padding: .5rem;
+    border-top: 1px solid rgba(179, 179, 179, 0.322)
+}
+
+.fotter {
+    background: linear-gradient(135deg, rgb(153, 0, 255) 30%, orange 100%);
+    padding: 15px;
+    color: #fff;
+}
+
+.fotter p {
+    margin-top: 15px;
+}
+
+.fotter a {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.fotter a:hover {
+    color: #fff
+}
+
+.table tr {
+    line-height: 33.3px;
+    cursor: pointer
+}
+
+.table tr code {
+    padding: 2px;
+    border-radius: 5px;
+    background: #e83e8d1a;
+}
+
+.table tr:hover code {
+    background: rgba(167, 162, 162, 0.322);
+
+}
+
+.table tr td:last-child {
+    text-align: right;
+}
+
+.last {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.listed li {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.listed span code {
+    background-color: antiquewhite;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.container2 {
+    width: 80%;
+    margin: auto;
+}
+
+.listed pre {
+    border: 1px solid #dfdcdcc9;
+    padding: 20px;
+    font-size: 12px;
+    background: #dfdcdc65;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.buttons {
+    margin-top: 70px;
+}

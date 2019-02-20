@@ -1,0 +1,259 @@
+/*Bootstrap Social Media sharing button*/
+
+$facebook      : #3b5998
+$twitter       : #00b6f1
+$youtube       : #ff0000
+$instagram-magenta       : #c32aa3
+$instagram-blue       : #4c5fd7
+$instagram-purple     : #7232bd
+$instagram-orange     : #f46f30
+$instagram-yellow     : #ffdc7d
+$pinterest      : #cb2027
+$google-plus       : #df4a32
+$linkedin       : #007bb6
+$vimeo-blue       : #45bbff
+$vimeo-green       : #aad450
+$vimeo-orange       : #f7b42c
+$vimeo-pink       : #f27490
+$tumbler       : #2c4762
+$snapchat       : #fffc00
+$whatsapp-green       : #25d366
+$whatsapp-teal1       : #075e54
+$whatsapp-teal2       : #128c7e
+$four-square-pink       : #fc4575
+$four-square-blue       : #2d5be3
+$skype-blue       : #00aff0
+$skype-green       : #7fba00
+$android       : #a4c639
+$stumble-upon       : #eb4924
+$flickr-pink       : #f40083
+$flickr-blue       : #006add
+$yahoo      : #430297
+$sound-cloud       : #ff5500
+$spotify-green       : #1ed760
+$spotify-dark-green       : #1db954
+$dribbble       : #ea4c89
+$reddit       : #ff5700
+$deviantart       : #4a5d4e
+$pocket       : #ee4056
+$quora       : #aa2200
+$quora-blue       : #2b6dad
+$slide-share-orange       : #f7941e
+$slide-share-blue       : #1191d0
+$five-hundred-px      : #0099e5
+$vine       : #00b489
+$github: #444444
+
+
+.f-social
+    position: relative
+    padding-left: 44px
+    padding-right: 44px
+    text-align: left
+    white-space: nowrap
+    overflow: hidden 
+    text-overflow: ellipsis
+    text-align: center
+    border: none
+    color: #fff
+    border: 1px solid rgba(225, 255, 255, 0.2)
+    &:hover
+        background: #fff
+        color: #000
+
+.f-social :nth-child(1)
+        position: absolute
+        left: 0
+        top: 0
+        bottom: 0
+        width: 36px
+        line-height: 36px
+        font-size: 1.3em
+        text-align: center
+        border-right: 1px solid rgba(0, 0, 0, 0.2)
+
+.f-social :nth-child(2)
+        position: absolute
+        right: 0
+        top: 0
+        bottom: 0
+        width: 36px
+        line-height: 36px
+        font-size: 1.3em
+        text-align: center
+        border-left: 1px solid rgba(0, 0, 0, 0.2)
+            
+
+
+.f-social.btn-lg 
+    padding-left: 61px
+    padding-right: 61px 
+
+
+.f-social.btn-lg :nth-child(2) 
+    line-height: 48px
+    width: 45px
+    font-size: 1.6em
+
+.f-social.btn-lg :nth-child(1)
+    line-height: 48px
+    width: 45px
+    font-size: 1.8em
+
+
+.f-social.btn-sm 
+    padding-left: 38px
+
+
+.f-social.btn-sm :first-child 
+    line-height: 28px
+    width: 28px
+    font-size: 1.4em
+
+.f-social.btn-sm :last-child 
+    line-height: 28px
+    width: 28px
+    font-size: 1.4em
+
+=f-social($bg-color, $color)
+    background-color: $bg-color
+    color: $color
+    border: 0px
+    &:hover
+        background-color : darken($bg-color, 10%)
+        color: $color
+        
+    &:active
+        box-shadow: 0 0 0 0.2rem darken($bg-color, 20%)
+    &:focus
+        box-shadow: 0 0 0 0.2rem lighten($bg-color, 20%)
+
+
+.f-facebook
+    +f-social($facebook, #fff)
+
+.f-twitter
+    +f-social($twitter,#fff)
+
+.f-youtube
+    +f-social($youtube,#fff)
+
+.f-instagram-magenta
+    +f-social($instagram-magenta,#fff)
+
+.f-instagram-blue
+    +f-social($instagram-blue,#fff)
+
+.f-instagram-purple
+    +f-social($instagram-purple,#fff)
+
+.f-instagram-orange
+    +f-social($instagram-orange,#fff)
+
+.f-instagram-yellow
+    +f-social($instagram-yellow,#555)
+ 
+.f-pinterest
+    +f-social($pinterest,#fff)
+
+.f-google-plus
+    +f-social($google-plus,#fff)                    
+
+.f-linkedin
+    +f-social($linkedin,#fff)   
+
+.f-vimeo-blue
+    +f-social($vimeo-blue,#fff)    
+
+.f-vimeo-green
+    +f-social($vimeo-green,#fff)
+
+.f-vimeo-orange
+    +f-social($vimeo-orange,#fff)
+
+.f-vimeo-pink
+    +f-social($vimeo-pink,#fff)
+
+.f-tumbler
+    +f-social($tumbler,#fff)
+
+.f-snapchat
+    +f-social($snapchat,#555)
+
+.f-whatsapp-green
+    +f-social($whatsapp-green,#fff)
+
+.f-whatsapp-teal1
+    +f-social($whatsapp-teal1,#fff)
+
+.f-whatsapp-teal2
+    +f-social($whatsapp-teal2,#fff)
+
+.f-four-square-pink
+    +f-social($four-square-pink,#fff)
+
+.f-four-square-blue
+    +f-social($four-square-blue,#fff)
+
+.f-skype-blue
+    +f-social($skype-blue,#fff)                    
+
+.f-skype-green
+    +f-social($skype-green,#fff)   
+
+.f-android
+    +f-social($android,#fff)    
+
+.f-stumble-upon
+    +f-social($stumble-upon,#fff)
+
+.f-flickr-pink
+    +f-social($flickr-pink,#fff)   
+
+.f-flickr-blue
+    +f-social($flickr-blue,#fff)    
+
+.f-yahoo
+    +f-social($yahoo,#fff)
+
+.f-sound-cloud
+    +f-social($sound-cloud,#fff)
+
+.f-spotify-green
+    +f-social($spotify-green,#fff)
+
+.f-spotify-dark-green
+    +f-social($spotify-dark-green,#fff)
+
+.f-dribbble
+    +f-social($dribbble,#fff)
+
+.f-reddit
+    +f-social($reddit,#fff)
+
+.f-deviantart
+    +f-social($deviantart,#fff)
+
+.f-pocket
+    +f-social($pocket,#fff)
+
+.f-quora
+    +f-social($quora,#fff)
+
+.f-quora-blue
+    +f-social($quora-blue,#fff)
+
+.f-slide-share-orange
+    +f-social($slide-share-orange,#fff)                    
+
+.f-slide-share-blue
+    +f-social($slide-share-blue,#fff)   
+
+.f-500px
+    +f-social($five-hundred-px,#fff)  
+
+.f-vine
+    +f-social($vine,#fff) 
+
+.f-github
+    +f-social($github,#fff) 
